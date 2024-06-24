@@ -7,7 +7,7 @@ import (
 	"path/filepath"
 	"testing"
 
-	"github.com/asdine/storm/v3"
+	storm "github.com/gofsd/thunderstorm"
 	"github.com/gofsd/thunderstorm/codec/gob"
 	"github.com/gofsd/thunderstorm/index"
 	"github.com/stretchr/testify/require"
