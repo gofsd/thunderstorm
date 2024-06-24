@@ -3,8 +3,8 @@ package storm
 import (
 	"os"
 
-	"github.com/asdine/storm/v3/codec"
-	"github.com/asdine/storm/v3/index"
+	"github.com/gofsd/thunderstorm/codec"
+	"github.com/gofsd/thunderstorm/index"
 	bolt "go.etcd.io/bbolt"
 )
 

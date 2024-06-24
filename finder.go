@@ -4,8 +4,8 @@ import (
 	"fmt"
 	"reflect"
 
-	"github.com/asdine/storm/v3/index"
-	"github.com/asdine/storm/v3/q"
+	"github.com/gofsd/thunderstorm/index"
+	"github.com/gofsd/thunderstorm/q"
 	bolt "go.etcd.io/bbolt"
 )
 

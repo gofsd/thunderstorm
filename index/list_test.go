@@ -9,10 +9,10 @@ import (
 	"testing"
 
 	"github.com/asdine/storm/v3"
-	"github.com/asdine/storm/v3/codec/gob"
-	"github.com/asdine/storm/v3/index"
-	bolt "go.etcd.io/bbolt"
+	"github.com/gofsd/thunderstorm/codec/gob"
+	"github.com/gofsd/thunderstorm/index"
 	"github.com/stretchr/testify/require"
+	bolt "go.etcd.io/bbolt"
 )
 
 func TestListIndex(t *testing.T) {

@@ -3,12 +3,12 @@ package codec_test
 import (
 	"fmt"
 
-	"github.com/asdine/storm/v3"
-	"github.com/asdine/storm/v3/codec/gob"
-	"github.com/asdine/storm/v3/codec/json"
-	"github.com/asdine/storm/v3/codec/msgpack"
-	"github.com/asdine/storm/v3/codec/protobuf"
-	"github.com/asdine/storm/v3/codec/sereal"
+	storm "github.com/gofsd/thunderstorm"
+	"github.com/gofsd/thunderstorm/codec/gob"
+	"github.com/gofsd/thunderstorm/codec/json"
+	"github.com/gofsd/thunderstorm/codec/msgpack"
+	"github.com/gofsd/thunderstorm/codec/protobuf"
+	"github.com/gofsd/thunderstorm/codec/sereal"
 )
 
 func Example() {

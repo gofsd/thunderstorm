@@ -5,8 +5,8 @@ import (
 	"encoding/binary"
 	"time"
 
-	"github.com/asdine/storm/v3/codec"
-	"github.com/asdine/storm/v3/codec/json"
+	"github.com/gofsd/thunderstorm/codec"
+	"github.com/gofsd/thunderstorm/codec/json"
 	bolt "go.etcd.io/bbolt"
 )
 

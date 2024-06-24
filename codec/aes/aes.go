@@ -7,7 +7,7 @@ import (
 	"fmt"
 	"io"
 
-	"github.com/asdine/storm/v3/codec"
+	"github.com/gofsd/thunderstorm/codec"
 )
 
 const name = "aes-"
