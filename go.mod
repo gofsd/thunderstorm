@@ -4,7 +4,6 @@ replace go.etcd.io/bbolt v1.3.4 => github.com/gofsd/thunderbolt v0.0.2
 
 require (
 	github.com/Sereal/Sereal v0.0.0-20190618215532-0b8ac451a863
-	github.com/asdine/storm/v3 v3.2.1
 	github.com/golang/protobuf v1.3.2
 	github.com/stretchr/testify v1.9.0
 	github.com/vmihailenco/msgpack v4.0.4+incompatible
